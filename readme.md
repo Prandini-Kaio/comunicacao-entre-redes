@@ -7,11 +7,11 @@ Este projeto demonstra a comunicação entre duas aplicações (Flask e Node.js)
 ## 🗂 Estrutura do Projeto
 
 ### **Flask**
-- **Local**: `flask-pingpong/`
+- **Local**: `python-app/`
 - **Função**: Servidor que inicia a troca de mensagens enviando "Ping" para o Node.js.
 
 ### **Node.js**
-- **Local**: `nodejs-pingpong/`
+- **Local**: `node-app/`
 - **Função**: Servidor que responde com "Pong" e envia o próximo "Ping" de volta ao Flask.
 
 ---
@@ -24,7 +24,7 @@ Este projeto demonstra a comunicação entre duas aplicações (Flask e Node.js)
 - Gerenciadores de pacotes (`pip` para Python e `npm` para Node.js)
 
 ### **1. Configurar o Flask**
-1. Navegue até o diretório `flask-pingpong`:
+1. Navegue até o diretório `python-app`:
     ```bash
     cd python-app
     ```
@@ -43,7 +43,7 @@ Este projeto demonstra a comunicação entre duas aplicações (Flask e Node.js)
 ### **2. Configurar o Node.js**
 1. Navegue até o diretório nodejs-pingpong:
     ```bash
-    cd nodejs-pingpong
+    cd node-app
     ```
 
 2. Instale as dependências:
